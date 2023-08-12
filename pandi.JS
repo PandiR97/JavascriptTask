@@ -10,7 +10,7 @@ function demo(){
 
 function demo1(){
     var range = document.getElementById('trial1').value
-    if(range < 200){
+    if(range < 700){
         document.getElementById('result1').innerHTML = 'within range'
     } else {
         document.getElementById('result1').innerHTML = 'not in range'
@@ -66,7 +66,7 @@ function demo4(){
 
 //three number
 function demo5(){
-    var f = document.getElementById('f').value;
+    var f = document.getElementById('F').value;
     var g = document.getElementById('g').value;
     var h = document.getElementById('h').value
     if(f>g && f>h){
